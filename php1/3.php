@@ -1,6 +1,5 @@
 <?php
-$str="qwerty"; 
-$qwe = wordwrap($str, 1, "\n", true);
+$str = substr("qwerty",0, 3);
 
-echo "$qwe\n"
+echo "$str"
 ?>
